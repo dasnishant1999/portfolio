@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #1F2937;
+    --off-white:#D1D5DB;
+    --off-grey:#6B7280;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0rem;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/* .hero{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+} */
+
+.hero .hero-img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero h2{
+    text-align: center;
+    color: var(--off-grey);
+}
+
+.navigation {
+    color: white;
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.non-block {
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-decoration: none;
+}
+
+.container{
+    padding: 2rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
